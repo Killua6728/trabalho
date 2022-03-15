@@ -34,7 +34,7 @@ rightBoundary.visible=false
 function draw() {
   background(0);
   path.velocityY = 4;
-  
+  boy.x=mouseX
   // boy moving on Xaxis with mouse
   
   edges= createEdgeSprites();
